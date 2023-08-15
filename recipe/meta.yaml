@@ -1,5 +1,5 @@
 {% set name = "titrate" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/titrate-{{ version }}.tar.gz
-  sha256: 8a81fc6605e587f6a281288bc3c5a298ca10de31ead7f88c33c2e896641e3e1e
+  sha256: 48cebb2ddb644db0c10cda3834d07c826f56e9061c18ae40a828cd0e41f8f52c
 
 build:
   noarch: python
@@ -25,6 +25,7 @@ requirements:
     - scipy
     - matplotlib-base
     - gammapy
+    - joblib
 
 test:
   imports:
