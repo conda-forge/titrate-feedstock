@@ -25,6 +25,7 @@ requirements:
     - scipy
     - matplotlib-base
     - gammapy
+    - joblib
 
 test:
   imports:
