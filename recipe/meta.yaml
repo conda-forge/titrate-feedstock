@@ -26,6 +26,8 @@ requirements:
     - matplotlib-base
     - gammapy
     - joblib
+    - astropy
+    - h5py
 
 test:
   imports:
