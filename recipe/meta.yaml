@@ -1,5 +1,5 @@
 {% set name = "titrate" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/titrate-{{ version }}.tar.gz
-  sha256: 8d2ca83c6c2bf5fbc1db147a14c5c18a37c5e57e13ece36b95cd748366ab56b7
+  sha256: 681df91c5d3dc468a197189e068aa4ad92444d9a8726965d9bd1abd4a43ec096
 
 build:
   noarch: python
