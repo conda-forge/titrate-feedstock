@@ -25,7 +25,6 @@ requirements:
     - scipy
     - matplotlib-base
     - gammapy
-    - joblib
     - astropy
     - h5py
 
