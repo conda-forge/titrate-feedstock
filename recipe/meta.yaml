@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -25,7 +25,7 @@ requirements:
     - scipy
     - matplotlib-base
     - gammapy
-    - astropy
+    - astropy-base
     - h5py
 
 test:
